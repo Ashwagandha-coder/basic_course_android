@@ -2,17 +2,20 @@ package com.example.basic_course_kotlin.Unit_1
 
 fun main() {
 
-    printBanner()
+    val border = "!"
+    val timeToRepeat = 25
+
+    printBanner(border, timeToRepeat)
     println("Happy Birthday, Jhansi!")
-    printBanner()
+    printBanner(border, timeToRepeat)
 
 }
 
 
-fun printBanner() {
+fun printBanner(border: String, timeToRepeat: Int) {
 
-    repeat(23) {
-        print("=")
+    repeat(timeToRepeat) {
+        print(border)
     }
     println()
 

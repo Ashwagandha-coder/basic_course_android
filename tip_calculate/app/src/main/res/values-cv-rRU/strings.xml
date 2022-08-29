@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tip_calculate</string>
+    <string name="hint_et">Стоимость сервиса</string>
+    <string name="hint_tv">Как прошла служба?</string>
+    <string name="Calculate">Расчет</string>
+    <string name="round_up_tip">Совет по округлению</string>
+    <string name="other">Other</string>
+</resources>
